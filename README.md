@@ -78,6 +78,11 @@ CREATE TABLE vinhos (
     preco DECIMAL(10,2) NOT NULL,
     descricao TEXT
 );
+
+INSERT INTO vinhos (nome, tipo, pais, safra, preco, descricao)
+VALUES ('Sangria de Boi', 'Tinto', 'Brasil', 2022, 50.00, 'Funcionando');
+
+SELECT * FROM vinhos;
 ```
 
 ---
